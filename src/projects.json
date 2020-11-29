@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "picture": "",
+        "name": "Motivation Station",
+        "description": "When this website is loaded, the user is greeted with a random image from the Harvard Museum of Art. The user is then prompted to click a button, that will generate a random quote from the QuoteGarden API. If the user likes the quote, they are able to save it to a list. The user can then \"tweet\" any saved quotes on that list directly to their twitter feed using the Twitter API.",
+        "gitHub": "https://github.com/TomOverland/Motivation-Station",
+        "site": "https://tomoverland.github.io/Motivation-Station/"
+    },
+    {
+        "id": 2,
+        "picture": "",
+        "name": "",
+        "description": "",
+        "gitHub": "",
+        "site": ""
+    },
+    {
+        "id": 3,
+        "picture": "",
+        "name": "",
+        "description": "",
+        "gitHub": "",
+        "site": ""
+    },
+    {
+        "id": 4,
+        "picture": "",
+        "name": "",
+        "description": "",
+        "gitHub": "",
+        "site": ""
+    },
+    {
+        "id": 5,
+        "picture": "",
+        "name": "",
+        "description": "",
+        "gitHub": "",
+        "site": ""
+    },
+    {
+        "id": 6,
+        "picture": "",
+        "name": "",
+        "description": "",
+        "gitHub": "",
+        "site": ""
+    }
+]

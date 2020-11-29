@@ -1,18 +1,20 @@
 import React from "react"
 import { Link, useLocation } from "react-router-dom";
 import "./Header.css";
+import Navbar from 'react-bootstrap/Navbar'
 
 function Header() {
     const location = useLocation();
     return (
+
         <nav
-            class="navbar navbar-expand-lg navbar-dark"
+            className="navbar navbar-expand-lg navbar-dark"
         // style="background-color: #454253;"
         >
-            <a class="navbar-brand">Grant Scriver</a>
+            <a className="navbar-brand">Grant Scriver</a>
             {/* <!--Button for responsive design--> */}
             <button
-                class="navbar-toggler"
+                className="navbar-toggler"
                 type="button"
                 data-toggle="collapse"
                 data-target="#navbarSupportedContent"
@@ -20,15 +22,15 @@ function Header() {
                 aria-expanded="false"
                 aria-label="Toggle navigation"
             >
-                <span class="navbar-toggler-icon"></span>
+                <span className="navbar-toggler-icon"></span>
             </button>
             {/* <!--This is where the Navbar is encoded--> */}
             <div
-                class="collapse navbar-collapse justify-content-end"
+                className="collapse navbar-collapse justify-content-end"
                 id="navbarSupportedContent"
             >
-                <ul class="navbar-nav">
-                    <li class="nav-item">
+                <ul className="navbar-nav">
+                    <li className="nav-item">
                         {/* <a class="nav-link" href="./index.html">About</a> */}
                         <Link
                             to="/about"
@@ -37,17 +39,17 @@ function Header() {
                             About
                         </Link>
                     </li>
-                    <li class="nav-item">
+                    <li className="nav-item">
                         {/* <a class="nav-link" href="./contact.html">Portfolio</a> */}
                         <Link
-                            to="/project"
-                            className={location.pathname === "/project" ? "nav-link active" : "nav-link"}
+                            to="/portfolio"
+                            className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
                         >
                             Portfolio
                         </Link>
 
                     </li>
-                    <li class="nav-item">
+                    <li className="nav-item">
                         {/* <a class="nav-link" href="./contact.html">Contact</a> */}
                         <Link
                             to="/contact"
@@ -58,8 +60,10 @@ function Header() {
 
                     </li>
                 </ul>
-            </div>
-        </nav>
+            </div >
+        </nav >
+
+
     );
 }
 
