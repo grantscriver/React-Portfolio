@@ -10,9 +10,6 @@ function Project(props) {
             <div className="content">
                 <ul>
                     <li>
-                        {props.picture}
-                    </li>
-                    <li>
                         {props.name}
                     </li>
                     <li>
