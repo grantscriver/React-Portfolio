@@ -8,21 +8,10 @@ function Project(props) {
                 <img src={props.picture} />
             </div>
             <div className="content">
-                <ul>
-                    <li>
-                        {props.name}
-                    </li>
-                    <li>
-                        {props.description}
-                    </li>
-                    <li>
-                        {props.gitHub}
-                    </li>
-                    <li>
-                        {props.site}
-                    </li>
-
-                </ul>
+                {props.name}
+                {props.description}
+                {props.gitHub}
+                {props.site}
             </div>
         </div>
     );
