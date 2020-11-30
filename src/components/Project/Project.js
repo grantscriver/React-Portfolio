@@ -13,7 +13,7 @@ function Project(props) {
                 </div>
                 <div class="col-12 col-md-8">
                     <div className="content">
-                        <h1 class="textColor">{props.name}</h1>
+                        <h3 class="textColor">{props.name}</h3>
                         <p class="textColor">{props.description}</p>
                         <a class="textColor"
                             type="button"

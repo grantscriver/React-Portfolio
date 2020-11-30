@@ -25,7 +25,7 @@ function About() {
                 </div>
             </div>
 
-            <div class="container mt-3">
+            <div class="container mt-3 mb-5">
                 <div class="row">
                     <p class="textColor">
                         Full stack web developer with a passion for arts and creativity.

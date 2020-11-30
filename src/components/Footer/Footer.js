@@ -4,10 +4,11 @@ import "./Footer.css";
 function Footer() {
 
     return (
-        <p class="footer"
+
+        <p class="footer d-flex justify-content-center"
         >
 
-            Footer is here
+            © 2020 Grant Scriver  |  Privacy Policy: User Information is Not Stored  |  Terms of Use: Available to General Public
 
         </p>
     )
