@@ -8,17 +8,22 @@ function Project(props) {
                 <img src={props.picture} />
             </div>
             <div className="content">
-                <h1>{props.name}</h1>
-                {props.description}
-                <a
+                <h1 class="textColor">{props.name}</h1>
+                <p class="textColor">{props.description}</p>
+                <a class="textColor"
                     type="button"
                     className="btn"
                     href={props.gitHub}
                 >
                     GitHub
-
                 </a>
-                {props.site}
+                <a class="textColor"
+                    type="button"
+                    className="btn"
+                    href={props.site}
+                >
+                    Live Site
+                </a>
             </div>
         </div>
     );
