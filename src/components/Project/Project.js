@@ -4,25 +4,25 @@ import "./Project.css";
 function Project(props) {
     return (
         <div className="container">
-            <div class="row mt-3">
-                <div class="co-12 col-md-4">
+            <div className="row mt-3">
+                <div className="co-12 col-md-4">
                     <div className="img-container">
                         <img src={process.env.PUBLIC_URL + props.picture}
                             id="portfolioPhoto" />
                     </div>
                 </div>
-                <div class="col-12 col-md-8">
+                <div className="col-12 col-md-8">
                     <div className="content">
-                        <h3 class="textColor">{props.name}</h3>
-                        <p class="textColor">{props.description}</p>
-                        <a class="textColor"
+                        <h3 className="textColor">{props.name}</h3>
+                        <p className="textColor">{props.description}</p>
+                        <a className="textColor"
                             type="button"
                             className="btn btn-outline-light"
                             href={props.gitHub}
                         >
                             GitHub
                 </a>
-                        <a class="textColor"
+                        <a className="textColor"
                             type="button"
                             className="btn btn-outline-light"
                             href={props.site}

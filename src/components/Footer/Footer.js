@@ -5,7 +5,7 @@ function Footer() {
 
     return (
 
-        <p class="footer d-flex justify-content-center"
+        <p className="footer d-flex justify-content-center"
         >
 
             © 2020 Grant Scriver  |  Privacy Policy: User Information is Not Stored  |  Terms of Use: Available to General Public

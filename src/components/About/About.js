@@ -5,19 +5,19 @@ import "./About.css"
 function About() {
     return (
         <div>
-            <div class="container mt-3">
-                <div class="row">
-                    <div class="col d-flex justify-content-center">
-                        <h1 class="textColor">Web Development Portfolio</h1>
+            <div className="container mt-3">
+                <div className="row">
+                    <div className="col d-flex justify-content-center">
+                        <h1 className="textColor">Web Development Portfolio</h1>
                     </div>
                 </div>
             </div>
-            <div class="container mt-3">
-                <div class="row">
-                    <div class="col d-flex justify-content-center">
+            <div className="container mt-3">
+                <div className="row">
+                    <div className="col d-flex justify-content-center">
                         <img
                             src={portrait}
-                            class="img-fluid"
+                            className="img-fluid"
                             id="portraitPhoto"
                             alt="Picture of me"
                         />
@@ -25,9 +25,9 @@ function About() {
                 </div>
             </div>
 
-            <div class="container mt-3 mb-5">
-                <div class="row">
-                    <p class="textColor">
+            <div className="container mt-3 mb-5">
+                <div className="row">
+                    <p className="textColor">
                         Full stack web developer with a passion for arts and creativity.
                         Recently earned a certificate in Full stack development through the
                         University of Minnesota, with experience in HTML, CSS, Javascript and
