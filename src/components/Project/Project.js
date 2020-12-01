@@ -7,7 +7,7 @@ function Project(props) {
             <div class="row mt-3">
                 <div class="co-12 col-md-4">
                     <div className="img-container">
-                        <img src={props.picture}
+                        <img src={process.env.PUBLIC_URL + props.picture}
                             id="portfolioPhoto" />
                     </div>
                 </div>

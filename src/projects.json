@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "key": 1,
         "picture": "./assets/MotivationStationComp.gif",
         "name": "Motivation Station",
         "description": "When this website is loaded, the user is greeted with a random image from the Harvard Museum of Art. The user is then prompted to click a button, that will generate a random quote from the QuoteGarden API. If the user likes the quote, they are able to save it to a list. The user can then \"tweet\" any saved quotes on that list directly to their twitter feed using the Twitter API.",
@@ -9,6 +10,7 @@
     },
     {
         "id": 2,
+        "key": 2,
         "picture": "./assets/WeatherDashComp.gif",
         "name": "Weather Dashboard",
         "description": "This application will help users find different weather facts for whatever city they type in. It will give the current and forecast weather through the use of an API.",
@@ -17,6 +19,7 @@
     },
     {
         "id": 3,
+        "key": 3,
         "picture": "./assets/SchedulerComp.gif",
         "name": "Work Day Scheduler",
         "description": "This work day scheduler will be able to save different activities that a user inputs from the description box. The description box will then change colors based on what the current time is. If the current hour is in the past the box will turn grey, while if the current hour is equal to the boxes hour it will turn pink, and lastly if the boxes time is in the future of the day it will be green.",
@@ -25,6 +28,7 @@
     },
     {
         "id": 4,
+        "key": 4,
         "picture": "./assets/NoteTakerComp.jpg",
         "name": "Note Taker",
         "description": "This application lets users save and delete notes. The front-end is handled through HTML routing, and the back-end is handled through API routing.",
@@ -33,6 +37,7 @@
     },
     {
         "id": 5,
+        "key": 5,
         "picture": "./assets/WTGComp.gif",
         "name": "Weigh To Go",
         "description": "Weigh to Go is a food tracker and weight loss calculator to help people achieve their goal weight in a healthy and effective manner. They can enter their daily caolorie intake and update their weight in their profile as they go along their weight loss journey.",
@@ -41,6 +46,7 @@
     },
     {
         "id": 6,
+        "key": 6,
         "picture": "./assets/EmployeeDirectoryComp.gif",
         "name": "Employee Directory",
         "description": "This React app uses an API call to populate employee data. Each employee can be filtered by Name, Phone Number, Email, or Nationality. Users are also able to search for a specific employee using the search bar.",
