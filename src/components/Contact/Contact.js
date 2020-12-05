@@ -31,7 +31,7 @@ function Contact() {
                             type="button"
                             className="btn"
                             className="textColor"
-                            href="https://www.linkedin.com/in/grant-scriver-3550431b1/"
+                            href="https://www.linkedin.com/in/grant-scriver/"
                         >LinkedIn</a>
                     </li>
                     <li className="d-flex justify-content-center">
