@@ -11,7 +11,7 @@ function Header() {
             className="navbar navbar-expand-lg navbar-dark"
         // style="background-color: #454253;"
         >
-            <a className="navbar-brand" href="/">Grant Scriver</a>
+            <a className="navbar-brand" href="./">Grant Scriver</a>
             {/* <!--Button for responsive design--> */}
             <button
                 className="navbar-toggler"
