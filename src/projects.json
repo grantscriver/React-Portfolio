@@ -1,12 +1,12 @@
 [
     {
-        "id": 1,
-        "key": 1,
-        "picture": "/assets/MotivationStationComp.gif",
-        "name": "Motivation Station",
-        "description": "When this website is loaded, the user is greeted with a random image from the Harvard Museum of Art. The user is then prompted to click a button, that will generate a random quote from the QuoteGarden API. If the user likes the quote, they are able to save it to a list. The user can then \"tweet\" any saved quotes on that list directly to their twitter feed using the Twitter API.",
-        "gitHub": "https://github.com/TomOverland/Motivation-Station",
-        "site": "https://tomoverland.github.io/Motivation-Station/"
+        "id": 5,
+        "key": 5,
+        "picture": "/assets/Lost-Artist.jpg",
+        "name": "Lost Artist",
+        "description": "Lost Artist Clothing Collaboration is a place where fashion designers from the upper midwest states - locations typically overlooked in the fashion community - can feature and sell their work. We give designers the ability to create profiles to share who they are, their experience, and a platform for shoppers to connect with them for potentially commissioned work, exposure, and a place to show support for their local designers and community.",
+        "gitHub": "https://github.com/grantscriver/Lost-Artist",
+        "site": "https://shielded-inlet-41475.herokuapp.com/"
     },
     {
         "id": 2,
@@ -29,20 +29,20 @@
     {
         "id": 4,
         "key": 4,
-        "picture": "/assets/NoteTakerComp.jpg",
-        "name": "Note Taker",
-        "description": "This application lets users save and delete notes. The front-end is handled through HTML routing, and the back-end is handled through API routing.",
-        "gitHub": "https://github.com/grantscriver/Note-Taker",
-        "site": "https://grant-note-taker.herokuapp.com/"
+        "picture": "/assets/stats.jpg",
+        "name": "Workout Tracker",
+        "description": "This app helps you keep track of your daily workouts by allowing you to enter multiple exercises for a given workout. The exercises can be either resistance or cardio. Based off what you choose there is different required inputs that will be tracked. A summary of the last workout is displayed after entering data and upon launching the app.",
+        "gitHub": "https://github.com/grantscriver/Workout-Tracker",
+        "site": "https://nameless-dusk-72885.herokuapp.com/"
     },
     {
-        "id": 5,
-        "key": 5,
-        "picture": "/assets/WTGComp.gif",
-        "name": "Weigh To Go",
-        "description": "Weigh to Go is a food tracker and weight loss calculator to help people achieve their goal weight in a healthy and effective manner. They can enter their daily caolorie intake and update their weight in their profile as they go along their weight loss journey.",
-        "gitHub": "https://github.com/grantscriver/Weigh_To_Go",
-        "site": "https://floating-stream-70238.herokuapp.com/"
+        "id": 1,
+        "key": 1,
+        "picture": "/assets/MotivationStationComp.gif",
+        "name": "Motivation Station",
+        "description": "When this website is loaded, the user is greeted with a random image from the Harvard Museum of Art. The user is then prompted to click a button, that will generate a random quote from the QuoteGarden API. If the user likes the quote, they are able to save it to a list. The user can then \"tweet\" any saved quotes on that list directly to their twitter feed using the Twitter API.",
+        "gitHub": "https://github.com/TomOverland/Motivation-Station",
+        "site": "https://tomoverland.github.io/Motivation-Station/"
     },
     {
         "id": 6,
