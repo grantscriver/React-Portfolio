@@ -11,7 +11,7 @@ function Header() {
             className="navbar navbar-expand-lg navbar-dark"
         // style="background-color: #454253;"
         >
-            <a className="navbar-brand" href="./">Grant Scriver</a>
+            <a className="navbar-brand" href="/">Grant Scriver</a>
             {/* <!--Button for responsive design--> */}
             <button
                 className="navbar-toggler"
@@ -33,8 +33,8 @@ function Header() {
                     <li className="nav-item">
                         {/* <a class="nav-link" href="./index.html">About</a> */}
                         <Link
-                            to="/about"
-                            className={location.pathname === "/about" ? "nav-link active" : "nav-link"}
+                            to="/"
+                            className={location.pathname === "/" ? "nav-link active" : "nav-link"}
                         >
                             About
                         </Link>
