@@ -15,6 +15,7 @@ function Project(props) {
                     <div className="content">
                         <h3 className="textColor">{props.name}</h3>
                         <p className="textColor">{props.description}</p>
+                        <p className="textColor">Technologies Used: {props.technologies}</p>
                         <a className="textColor"
                             type="button"
                             className="btn btn-outline-light"
