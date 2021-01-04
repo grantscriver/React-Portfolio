@@ -39,7 +39,7 @@ function Contact() {
                             type="button"
                             className="btn"
                             className="textColor"
-                            href={process.env.PUBLIC_URL + "/assets/GrantCodingResume2020DEC05.pdf"}
+                            href={process.env.PUBLIC_URL + "/assets/Grant_Scriver_Coding_Resume_2021JAN03.pdf"}
                         >Resume</a>
                     </li>
                 </div>
