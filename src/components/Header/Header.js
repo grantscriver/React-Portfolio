@@ -11,7 +11,7 @@ function Header() {
             className="navbar navbar-expand-lg navbar-dark"
         // style="background-color: #454253;"
         >
-            <a className="navbar-brand" >Grant Scriver</a>
+            <a className="navbar-brand" href="/">Grant Scriver</a>
             {/* <!--Button for responsive design--> */}
             <button
                 className="navbar-toggler"
@@ -31,32 +31,32 @@ function Header() {
             >
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        {/* <a class="nav-link" href="./index.html">About</a> */}
-                        <Link
+                        <a className="nav-link" href="/">About</a>
+                        {/* <Link
                             to="/"
                             className={location.pathname === "/" ? "nav-link active" : "nav-link"}
                         >
                             About
-                        </Link>
+                        </Link> */}
                     </li>
                     <li className="nav-item">
-                        {/* <a class="nav-link" href="./contact.html">Portfolio</a> */}
-                        <Link
+                        <a class="nav-link" href="/portfolio">Portfolio</a>
+                        {/* <Link
                             to="/portfolio"
                             className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
                         >
                             Portfolio
-                        </Link>
+                        </Link> */}
 
                     </li>
                     <li className="nav-item">
-                        {/* <a class="nav-link" href="./contact.html">Contact</a> */}
-                        <Link
+                        <a class="nav-link" href="/contact">Contact</a>
+                        {/* <Link
                             to="/contact"
                             className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
                         >
                             Contact
-                        </Link>
+                        </Link> */}
 
                     </li>
                 </ul>
