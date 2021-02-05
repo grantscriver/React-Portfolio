@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Project from "../Project/Project"
 import Wrapper from "../Wrapper/Wrapper"
 import projects from "../../projects.json"
-
+import "./Portfolio.css"
 
 
 

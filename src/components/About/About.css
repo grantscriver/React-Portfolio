@@ -3,3 +3,8 @@
     max-height: 300px;
     border-radius: 15%;
   }
+
+  .content-wrap {
+    max-width: 900px;
+    margin: 0 auto;
+}
