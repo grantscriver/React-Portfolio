@@ -22,12 +22,12 @@
     {
         "id": 3,
         "key": 3,
-        "picture": "/assets/SchedulerComp.gif",
-        "name": "Work Day Scheduler",
-        "description": "This work day scheduler will be able to save different activities that a user inputs from the description box. The description box will then change colors based on what the current time is. If the current hour is in the past the box will turn grey, while if the current hour is equal to the boxes hour it will turn pink, and lastly if the boxes time is in the future of the day it will be green.",
-        "technologies": "HTML/CSS/Javascript, Bootstrap, jQuery, Font Awesome, Google Fonts, Moment.js, GitHub Pages",
-        "gitHub": "https://github.com/grantscriver/My-Portfolio/tree/master/Projects/Work-Day-Scheduler",
-        "site": "https://grantscriver.github.io/My-Portfolio/Projects/Work-Day-Scheduler/Develop/index.html"
+        "picture": "/assets/burgerpic.jpg",
+        "name": "Eat Da Burger",
+        "description": "CRUD application allowing users to add burgers to a database. Once a burger is eaten it is considered \"Devoured\"",
+        "technologies": "HTML/CSS/Javascript, Handlebars, JawsDB, MySQL, Google Fonts, Heroku",
+        "gitHub": "https://github.com/grantscriver/Burger",
+        "site": "https://boiling-ravine-25470.herokuapp.com/"
     },
     {
         "id": 4,
