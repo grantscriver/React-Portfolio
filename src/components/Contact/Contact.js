@@ -1,29 +1,20 @@
 import React from "react";
-import "./Contact.css"
 
 function Contact() {
     return (
-
-
-
         <div className="container-fluid mt-3">
             <div className="content-wrap">
 
-                {/* <div className="container mt-3"> */}
                 <div className="row">
                     <div className="col d-flex justify-content-center">
                         <h1 className="textColor">Contact Information</h1>
                     </div>
                 </div>
-                {/* </div> */}
-
-
                 <div className="row mt-3">
                     <div className="col-6">
                         <li className="d-flex justify-content-center">
                             <a
                                 type="button"
-                                className="btn"
                                 className="textColor"
                                 href="https://github.com/grantscriver"
                             >GitHub</a>
@@ -31,7 +22,6 @@ function Contact() {
                         <li className="d-flex justify-content-center">
                             <a
                                 type="button"
-                                className="btn"
                                 className="textColor"
                                 href="https://www.linkedin.com/in/grant-scriver/"
                             >LinkedIn</a>
@@ -39,7 +29,6 @@ function Contact() {
                         <li className="d-flex justify-content-center">
                             <a
                                 type="button"
-                                className="btn"
                                 className="textColor"
                                 href={process.env.PUBLIC_URL + "/assets/Grant_Scriver_Resume.pdf"}
                             >Resume</a>
