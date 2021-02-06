@@ -2,10 +2,10 @@ import React from "react";
 
 function Project(props) {
     return (
-        <div className="container">
+        <div className="container projects">
             <div className="row mt-3">
                 <div className="co-12 col-md-4">
-                    <div className="img-container">
+                    <div className="img-container pt-3">
                         <img src={process.env.PUBLIC_URL + props.picture}
                             id="portfolioPhoto" />
                     </div>
@@ -17,14 +17,14 @@ function Project(props) {
                         <p className="textColor">Technologies Used: {props.technologies}</p>
                         <a className="textColor"
                             type="button"
-                            className="btn btn-outline-light"
+                            className="btn btn-outline-light ml-3"
                             href={props.gitHub}
                         >
                             GitHub
                 </a>
                         <a className="textColor"
                             type="button"
-                            className="btn btn-outline-light"
+                            className="btn btn-outline-light ml-3"
                             href={props.site}
                         >
                             Live Site

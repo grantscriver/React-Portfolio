@@ -15,12 +15,12 @@ p {
   color: white;
 }
 
-.Project {
+.container {
   padding-bottom: 60px;
 }
 
-.container {
-  padding-bottom: 60px;
+.projects {
+  background-color: #353535;
 }
 
 /* Portfolio Styling
@@ -33,7 +33,7 @@ p {
 /* Navbar Styling
 ------------------------------------*/
 nav {
-  background-color: #454253;
+  background-color: #353535;
 }
 
 /* Contact Styling
