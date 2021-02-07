@@ -8,11 +8,15 @@
   color: white;
 }
 
-h1,
 h2,
 a,
 p {
   color: white;
+}
+
+h1 {
+  color: white;
+  text-align: center;
 }
 
 .container {

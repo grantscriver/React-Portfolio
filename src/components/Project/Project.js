@@ -5,14 +5,14 @@ function Project(props) {
         <div className="container projects">
             <div className="row mt-3">
                 <div className="co-12 col-md-5">
-                    <div className="img-container pt-3">
+                    <div className="img-container pt-4">
                         <img src={process.env.PUBLIC_URL + props.picture}
                             id="portfolioPhoto" />
                     </div>
                 </div>
                 <div className="col-12 col-md-7">
                     <div className="content">
-                        <h3 className="textColor">{props.name}</h3>
+                        <h3 className="textColor mt-3">{props.name}</h3>
                         <p className="textColor">{props.description}</p>
                         <p className="textColor">Technologies Used: {props.technologies}</p>
                         <a className="textColor"

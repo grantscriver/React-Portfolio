@@ -15,6 +15,7 @@ class Portfolio extends Component {
     render() {
         return (
             <Wrapper>
+                <h1 className="textColor">Sample Projects</h1>
                 {this.state.projects.map(project => (
                     <Project
                         id={project.id}
