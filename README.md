@@ -2,7 +2,7 @@
 
 [Live Site](https://grantscriver.github.io/React-Portfolio)
 
-![portfolio image](./public/assets/portfolio-screenshot.jpg)
+![portfolio image](./public/assets/screenshot.jpg)
 
 ## Table of Contents
 
