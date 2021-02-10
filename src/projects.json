@@ -22,7 +22,7 @@
     {
         "id": 3,
         "key": 3,
-        "picture": "/assets/burgerpic.jpg",
+        "picture": "/assets/burgerpic3.jpg",
         "name": "Eat Da Burger",
         "description": "CRUD application allowing users to add burgers to a database. Once a burger is eaten it is considered \"Devoured\"",
         "technologies": "HTML/CSS/Javascript, Handlebars, JawsDB, MySQL, Google Fonts, Heroku",
