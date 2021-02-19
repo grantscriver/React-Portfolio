@@ -8,15 +8,26 @@
   color: white;
 }
 
-h2,
-a,
-p {
-  color: white;
-}
-
 h1 {
   color: white;
   text-align: center;
+}
+
+h2 {
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+* {
+  font-family: "Crimson Text", serif;
+}
+
+p {
+  color: white;
+  font-size: 20px;
 }
 
 .container {
@@ -34,10 +45,18 @@ h1 {
   max-height: 100%;
 }
 
+.buttonRow {
+  text-align: center;
+}
+
 /* Navbar Styling
 ------------------------------------*/
 nav {
   background-color: #353535;
+}
+
+.navbar-nav {
+  font-size: 20px;
 }
 
 /* Contact Styling
@@ -67,9 +86,6 @@ ul {
   max-width: 900px;
   margin: 0 auto;
 }
-
-/* About Styling
-------------------------------------*/
 .footer {
   bottom: 0;
   /* position: fixed; */

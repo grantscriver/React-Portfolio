@@ -5,7 +5,7 @@ function Contact() {
         <div className="container-fluid mt-3">
             <div className="content-wrap">
 
-                <div className="row">
+                <div className="row mt-3">
                     <div className="col d-flex justify-content-center">
                         <h1 className="textColor">Contact Information</h1>
                     </div>
