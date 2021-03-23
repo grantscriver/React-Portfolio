@@ -12,8 +12,7 @@ function Contact() {
                 <div className="row mt-3 d-flex justify-content-center">
                 <h4 className="d-flex justify-content-center">
                 <span className="textColor far fa-envelope">
-                    <a href="mailto:grantscriver@gmail.com?subject=subject text">
-                        grantscriver@gmail.com
+                    <a href="mailto:grantscriver@gmail.com?subject="> grantscriver@gmail.com
                     </a>
                 </span>
                 </h4>
@@ -22,7 +21,7 @@ function Contact() {
                 <div className="row mt-3 d-flex justify-content-center">
                 <h4 className="d-flex justify-content-center">
                 <span className="textColor fas fa-phone">
-                <a href="tel:6128750809">612-875-0809</a>
+                <a href="tel:6128750809"> 612-875-0809</a>
                 </span>
                 </h4>
                 </div>
