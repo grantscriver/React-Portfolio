@@ -8,7 +8,7 @@ function About() {
                 <div className="container mt-3">
                     <div className="row">
                         <div className="col d-flex justify-content-center">
-                            <h1 className="textColor">Web Development Portfolio</h1>
+                            <h1 className="textColor display-3">Web Development Portfolio</h1>
                         </div>
                     </div>
                 </div>

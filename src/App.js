@@ -10,7 +10,7 @@ import Contact from "./components/Contact/Contact"
 import Footer from "./components/Footer/Footer.js";
 
 function App() {
-  document.body.style.backgroundColor = "#3C6E71";
+  document.body.classList.add("Background-image");
   return (
     <HashRouter>
       <div>

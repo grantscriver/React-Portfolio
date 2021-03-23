@@ -11,6 +11,7 @@
 h1 {
   color: white;
   text-align: center;
+  font-family: 'Londrina Outline', cursive;
 }
 
 h2 {
@@ -34,8 +35,10 @@ p {
   padding-bottom: 60px;
 }
 
-.projects {
-  background-color: #353535;
+
+.Background-image {
+  background-image: url(./components/Project/double-bubble-dark.png);
+  object-fit: cover;
 }
 
 /* Portfolio Styling
@@ -72,7 +75,9 @@ ul {
 
 .textColor {
   color: white;
+  display: block;
 }
+
 
 /* About Styling
 ------------------------------------*/
