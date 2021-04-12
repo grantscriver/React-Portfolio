@@ -30,7 +30,7 @@ function Contact() {
                             <a
                                 type="button"
                                 className="textColor"
-                                href={process.env.PUBLIC_URL + "/assets/Grant_Scriver_Resume.pdf"}
+                                href={process.env.PUBLIC_URL + "/assets/Grant_Scriver_Resume_2.pdf"}
                             >Resume</a>
                         </h4>
                 </div>
